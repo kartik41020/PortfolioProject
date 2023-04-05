@@ -2,7 +2,7 @@
 
 --Covid 19 Data Exploration 
 SELECT * 
-FROM public."CovidDeaths"sd
+FROM public."CovidDeaths"
 WHERE continent IS NOT NULL -- removes all the rows having continents in location
 ORDER BY 3,4
 
